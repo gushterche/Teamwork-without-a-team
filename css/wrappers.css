@@ -1,4 +1,6 @@
-header, section .welcome, section #newsHome {background: rgba(255, 255, 255, 0.8);margin: 0.5em; border-radius: 12px;}
+header, section .welcome,
+section #newsHome, .newsNews  {background: rgba(255, 255, 255, 0.8);margin: 0.5em; border-radius: 12px;}
+
 footer {margin: 0.5em;border-top: 1px solid white;}
 
 .welcome .greeting {margin: 1em;}
@@ -8,3 +10,8 @@ section #newsHome {overflow: hidden;}
 section #newsHome .newsHome {float: left;width: 27%;margin: 2% 3%; }
 section #newsHome .newsHome p {text-align: justify;}
 section #newsHome .newsHome a {color: black}
+
+#Page1, #Page2 {padding:2em 1em;}
+
+.newscontent {margin: 1em;}
+.newscontent h3 {margin-bottom: 0.5em;}

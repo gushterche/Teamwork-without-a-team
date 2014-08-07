@@ -1,7 +1,7 @@
 body {
 	background: #EEE url('../img/background1.jpg');
-	background-size: 100% auto;
-	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-repeat: repeat-y;
 }
 
 .container {
@@ -9,5 +9,4 @@ body {
 	margin:20px 10% auto 10%;
 }
 
-.greeting {margin: 1em;}
-.greeting p:last-child {text-align: right;margin-top: 0.3em;}
+
