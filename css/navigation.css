@@ -2,10 +2,12 @@ nav {width: 60%; margin-left: 20%; margin-right: 20%}
 nav ul {}
 nav ul:after {display: block; content:''; clear: both;}
 
-nav>ul>li {display:block; position: relative;}
-nav>ul>li a {float: left;width:21%;margin:0 2%;text-align: center;}
+nav>ul>li {display:block; position: relative;float: left;width:21%;margin:0 2%;}
+
 nav>ul>li ul {display: none;position: absolute;top: 100%;left: 0;padding-top: 0.5em;}
 nav>ul>li>ul>li {display: block;border-bottom: 1px dotted #CCC;background: rgba(255,255,255,0.9);width: 120px}
+
+nav>ul>li>a {text-align: center;}
 
 nav>ul>li>ul>li:first-child {border-top-left-radius: 6px;border-top-right-radius: 6px}
 nav>ul>li>ul>li:last-child {border-bottom-left-radius: 6px;border-bottom-right-radius: 6px}
