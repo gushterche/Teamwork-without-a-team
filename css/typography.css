@@ -12,6 +12,8 @@ article h2 {font-size: 1.5em;}
 article h3 {font-size: 1.3em;}
 footer {font-size: 12px}
 
+header h2 {margin-bottom: 0.3em;}
+
 .welcome h1,.welcome p {font-family: Marck Script, sanf-serif;}
 
 .welcome h1 {font-size: 3em;}
