@@ -1,0 +1,11 @@
+body {
+	background: #EEE url('../img/background1.jpg');
+	background-size: 100% auto;
+	background-repeat: no-repeat;
+}
+
+.container {
+	width: 80%;
+	margin:20px 10% auto 10%;
+}
+
