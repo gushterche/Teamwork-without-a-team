@@ -2,7 +2,8 @@ nav {width: 60%; margin-left: 20%; margin-right: 20%}
 nav ul {}
 nav ul:after {display: block; content:''; clear: both;}
 
-nav>ul>li {display:block;float: left;margin:0 2.2em;position: relative;}
+nav>ul>li {display:block; position: relative;}
+nav>ul>li a {float: left;width:21%;margin:0 2%;text-align: center;}
 nav>ul>li ul {display: none;position: absolute;top: 100%;left: 0;padding-top: 0.5em;}
 nav>ul>li>ul>li {display: block;border-bottom: 1px dotted #CCC;background: rgba(255,255,255,0.9);width: 120px}
 

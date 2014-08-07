@@ -1,6 +1,7 @@
 
 .welcome {overflow: hidden;}
 .welcome img {border-radius: 6px; float:left; margin: 2em;width: 160px;}
+.welcome .greeting {float: left;width: 75%}
 
 
 .newscontent {overflow: hidden;}
