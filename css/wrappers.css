@@ -1,2 +1,10 @@
-header, section .welcome, section .news {background: rgba(255, 255, 255, 0.7);margin: 0.5em; border-radius: 12px;}
+header, section .welcome, section #newsHome {background: rgba(255, 255, 255, 0.8);margin: 0.5em; border-radius: 12px;}
 footer {margin: 0.5em;border-top: 1px solid white;}
+
+.welcome .greeting {margin: 1em;}
+.welcome .greeting p:last-child {text-align: right;margin-top: 0.3em;}
+
+section #newsHome {overflow: hidden;}
+section #newsHome .newsHome {float: left;width: 27%;margin: 2% 3%; }
+section #newsHome .newsHome p {text-align: justify;}
+section #newsHome .newsHome a {color: black}
