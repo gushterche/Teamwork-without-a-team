@@ -6,3 +6,5 @@
 
 .newscontent {overflow: hidden;}
 .newscontent img {width: 160px; background: #FFF;padding:1em;box-shadow: 3px 3px 20px black;border-radius: 6px; float: left;margin-right: 1em;}
+
+.gallery img {width: 160px;}
