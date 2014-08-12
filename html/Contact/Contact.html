@@ -2,40 +2,61 @@
 	<html>
 		<head>
 			<meta charset="utf-8">
-			<title>Di Valli</title>
-			<link rel="stylesheet" type="text/css" href="css/typography.css">
-			<link rel="stylesheet" type="text/css" href="css/common.css">
-			<link rel="stylesheet" type="text/css" href="css/navigation.css">
-			<link rel="stylesheet" type="text/css" href="css/gallery.css">
+			<title>Di Valli - Home</title>
+			<link rel="stylesheet" type="text/css" href="../../css/typography.css">
+			<link rel="stylesheet" type="text/css" href="../../css/common.css">
+			<link rel="stylesheet" type="text/css" href="../../css/wrappers.css">
+			<link rel="stylesheet" type="text/css" href="../../css/navigation.css">
+			<link rel="stylesheet" type="text/css" href="../../css/gallery.css">
+			<script src="https://maps.googleapis.com/maps/api/js"></script>
+			<script type="text/javascript" src="../../js/contact.js"></script>
+
+			<link href='http://fonts.googleapis.com/css?family=Marck+Script&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+			<link href='http://fonts.googleapis.com/css?family=Neucha&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+			<link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet">
 
 		</head>
 		<body>
-			<header>
-				<h1>Бистро "Di Valli"</h1>
-				<h2>...с привкус на морски спомени</h2>
-				<nav>
-					<ul>
-						<li><a href="../Home/home.html">Начало</a></li>
-						<li><a href="../News/News.html">Новини</a></li>
-						<li><a href="../Menu/Menu.html">Меню</a>
-							<ul>
-								<li>Салати</li>
-								<li>Предястия</li>
-								<li>Специалитети</li>
-								<li>Десерти</li>
-							</ul>
-						</li>
-						<li><a href="../Contact/Contact.html">Контакт</a></li>
-					</ul>
-				</nav>
-			</header>
-			<section id="main">
-			</section>
-			<footer>
-				<p>All rights reserved &copy; Bistro "Di Valli"</p>
-			</footer>
 
+			<div class="container">
+				<header>
+					<h1>Бистро " Di Valli "</h1>
+					<h2>...с привкус на морски спомени</h2>
+					<nav>
+						<ul>
+							<li><a href="../Home/home.html"><i class="fa fa-anchor"></i>Начало<i class="fa fa-anchor"></i></a></li>
+							<li><a href="../News/News.html"><i class="fa fa-anchor"></i>Новини<i class="fa fa-anchor"></i></a></li>
+							<li><a href="../Menu/Menu.html"><i class="fa fa-anchor"></i>Меню<i class="fa fa-anchor"></i></a>
+								<ul>
+									<li><a href="../Menu/Menu.html #salad">Салати</a></li>
+									<li><a href="../Menu/Menu.html #Appetizer">Предястия</a></li>
+									<li><a href="../Menu/Menu.html #main">Специалитети</a></li>
+									<li><a href="../Menu/Menu.html #dessert">Десерти</a></li>
+								</ul>
+							</li>
+							<li><a href="../Contact/Contact.html"><i class="fa fa-anchor"></i>Контакт<i class="fa fa-anchor"></i></a></li>
+						</ul>
+					</nav>
+				</header>
+				<section id="ContactPage">
 
+					<div class="address">
+						<h2>Пуснали сме котва тук:</h2>
+						<p>гр. Бургас</p>
+						<p>ул. Булаир 27</p>
+						<p><i class="fa fa-phone"></i>+358 (0)56 123456</p>
+						<p><i class="fa fa-envelope"></i>divalli@gmail.com</p>
+						<p><i class="fa fa-facebook-square"></i>Facebook.com/diValli</p>
+					</div>
+
+					<div id="map_canvas">
+					</div>
+
+				</section>
+				<footer>
+					<p>All rights reserved &copy; Bistro "Di Valli"</p>
+				</footer>
+			</div>
 
 		</body>
 
