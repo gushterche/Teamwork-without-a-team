@@ -16,10 +16,9 @@ section #newsHome .newsHome a {color: black}
 .newscontent {margin: 1em;}
 .newscontent h3 {margin-bottom: 0.5em;}
 
-.gallery {margin: 1em;background: #FFF url('../img/menu.jpg');background-repeat: repeat-y;background-size: 100% 620px; overflow: hidden;}
+.gallery {background: rgba(255, 255, 255, 0.4) url('../img/menu.gif');background-repeat: repeat-y;background-size: 100% 590px; overflow: hidden;border-radius: 10px}
 
-.salad, .dessert, .Appetizer, .main {display:block;margin: 1em;padding-top: 2em;width: 47%;float: left;}
+#salad, #dessert, #Appetizer, #maincourse {display:block;margin: 1em;padding-top: 2em;width: 47%;float: left;}
 
-
-
-.menu p {width: 400px}
+.gallery .menu p {width: 400px}
+.gallery .menu p:last-child {font-style: italic !important;}

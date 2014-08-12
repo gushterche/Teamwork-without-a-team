@@ -8,7 +8,7 @@
 .newscontent img {width: 160px; background: #FFF;padding:1em;box-shadow: 3px 3px 20px black;border-radius: 6px; float: left;margin-right: 1em;}
 
 
-.gallery img {width: 140px;}
+.gallery .menu img {width: 140px;height: 100px}
 
 
 .menu {overflow: hidden;margin: 1em;}
