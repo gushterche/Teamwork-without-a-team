@@ -6,7 +6,7 @@ footer {margin: 0.5em;border-top: 1px solid white;}
 .welcome .greeting {margin: 1em;}
 .welcome .greeting p:last-child {text-align: right;margin-top: 0.3em;}
 
-section #newsHome {overflow: hidden;}
+section #newsHome {overflow: hidden;background: rgba(255, 255, 255, 0.8);background-image:  url('../img/white-line.jpg'),url('../img/white-line.jpg');background-repeat: repeat-y,repeat-y;background-position:33%,66%;}
 section #newsHome .newsHome {float: left;width: 27%;margin: 2% 3%; }
 section #newsHome .newsHome p {text-align: justify;}
 section #newsHome .newsHome a {color: black}
@@ -20,8 +20,6 @@ section #newsHome .newsHome a {color: black}
 
 #salad, #dessert, #Appetizer, #maincourse {display:block;margin: 1em;padding-top: 2em;width: 47%;float: left;}
 
-.gallery .menu p {width: 400px;}
-.gallery .menu p:last-child {font-style: italic !important;}
 
 .address {margin: 1em;width:40%;}
 .address i {margin-right: 0.5em;}
@@ -30,4 +28,4 @@ section #newsHome .newsHome a {color: black}
 
 #ContactPage {overflow: hidden;}
 .address, #map_canvas {float: left;}
-.address a {text-decoration: none;color: black}
+
