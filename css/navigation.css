@@ -4,8 +4,8 @@ nav ul:after {display: block; content:''; clear: both;}
 
 nav>ul>li {display:block; position: relative;float: left;width:21%;margin:0 2%;}
 
-nav>ul>li ul {display: none;position: absolute;top: 100%;left: 0;padding-top: 0.5em;}
-nav>ul>li>ul>li {display: block;border-bottom: 1px dotted #CCC;background: rgba(255,255,255,0.9);width: 120px}
+nav>ul>li ul {display: none;position: absolute;top: 100%;left: 0;padding-top: 0.5em; z-index: 900}
+nav>ul>li>ul>li {display: block;border-bottom: 1px dotted #CCC;background: rgba(255,255,255,0.9);width: 120px;}
 
 nav>ul>li>a {text-align: center;}
 
