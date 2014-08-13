@@ -19,4 +19,9 @@ header h2 {margin-bottom: 0.3em;}
 .welcome h1 {font-size: 3em;text-align: center}
 .welcome p {font-size: 1.2em;} 
 
+.gallery .menu p {width: 400px;}
+.gallery .menu p:last-child {font-style: italic !important;}
+
+.address a {text-decoration: none;color: black}
+
 
