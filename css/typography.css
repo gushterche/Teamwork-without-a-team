@@ -5,7 +5,7 @@ body {font: 14px/1.5 Arial, sanf-serif}
 /*H1 with the Neucha-Font-Family will be used as logo*/
 header {font-family: Neucha, sanf-serif;}
 header p {font-style: italic;text-align: center;}
-header p i {margin:0.5em; }
+header p i {margin:2em; font-size: 6px}
 header nav {font: 14px/1.5 Arial, sanf-serif}
 
 header h1 {font-size: 4em;text-align: center}
