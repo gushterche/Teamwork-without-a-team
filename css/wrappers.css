@@ -18,7 +18,9 @@ section #newsHome .newsHome a {color: black}
 
 .gallery {background: rgba(255, 255, 255, 0.4) url('../img/menu.gif');background-repeat: repeat-y;background-size: 100% 590px; overflow: hidden;border-radius: 10px}
 
-#salad, #dessert, #Appetizer, #maincourse {display:block;margin: 1em;padding-top: 2em;width: 47%;float: left;}
+.gallery h2 {margin: 0.5em;}
+
+#salad, #dessert, #Appetizer, #maincourse {display:block;margin: 1em;width: 47%;float: left;}
 
 
 .address {margin: 1em;width:40%;}
