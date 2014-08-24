@@ -1,0 +1,54 @@
+
+/* Smartphones (portrait) ----------- */
+@media only screen 
+and (max-width : 780px) {
+	body {background-color: #CCCC99;background-image: none;}
+	.welcome img {margin:0.5em;width: 80px}
+	.welcome .greeting {float: none;width: 95%}
+	header h1 {font-size: 3.5em;}
+	header h2 {font-size: 2em;}
+	article h3 {font-size: 1m;}
+	.gallery {background-image: none;}
+	.gallery .menu p {width: 100%}
+	.gallery .menu img {width: 50px; height:30px;}
+	#salad, #dessert, #Appetizer, #maincourse {width: 90%;float: none;}
+	.address, #map_canvas {float: none;width: 90%}
+	footer {font-size: 8px}
+}
+
+@media only screen 
+and (max-width : 480px) {
+	body {background-color: #CCCC99;background-image: none;font-size: 11px}
+	.container {width: 90%;margin:10px 5% auto 5%;}
+	.welcome {display: none;}
+	header h1 {font-size: 3em;}
+	header h2 {font-size: 1.5em;}
+	article h3 {font-size: 1m;}
+	.gallery {background-image: none;}
+	.gallery .menu p {width: 100%}
+	#salad, #dessert, #Appetizer, #maincourse {width: 90%;float: none;}
+	.address, #map_canvas {float: none;width: 90%}
+	footer {font-size: 8px}
+	
+}
+
+@media only screen 
+and (max-width : 360px) {
+	body {background-color: #CCCC99;background-image: none;font-size: 9px}
+	.container {width: 90%;margin:10px 5% auto 5%;}
+	.welcome {display: none;}
+	section #newsHome {background-image: none;}
+	section #newsHome .newsHome {float: none;width: 90%;background-image: none;}
+	header h1 {font-size: 2em;}
+	header h2 {font-size: 1.3em;}
+	article h3 {font-size: 1m;}
+	.gallery {background-image: none;}
+	.gallery .menu p {width: 100%}
+	#salad, #dessert, #Appetizer, #maincourse {width: 90%;float: none;}
+	.address {width: 100%}
+	 #map_canvas {display: none;}
+	footer {font-size: 7px}
+
+}
+
+
