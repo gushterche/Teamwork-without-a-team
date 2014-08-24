@@ -8,15 +8,25 @@ and (max-width : 780px) {
 	header h1 {font-size: 3.5em;}
 	header h2 {font-size: 2em;}
 	article h3 {font-size: 1m;}
+
+	nav {width: 100%;margin: 0;padding: 0}
+	nav ul {}
+	nav>ul>li {display:block;float: none;width: 90%;margin-left: 5%;margin-right: 5%;border-top: 1px dotted #CCC;}
+	nav>ul>li ul {display: none;position: absolute;top: 80%;left: 50%;padding-top: 0.5em; z-index: 900}
+	nav>ul>li>a {text-align: center;margin-right: 35%;margin-left: 35%;}
+	nav>ul>li:hover ul {display: block;}
+	nav ul li:hover>a {color: brown}
+
 	.gallery {background-image: none;}
 	.gallery .menu p {width: 100%}
 	.gallery .menu img {width: 50px; height:30px;}
+	.gallery .menu img:hover {width: 100px;height: 80px;}
 	#salad, #dessert, #Appetizer, #maincourse {width: 90%;float: none;}
 	.address, #map_canvas {float: none;width: 90%}
 	footer {font-size: 8px}
 }
 
-@media only screen 
+@media only screen us
 and (max-width : 480px) {
 	body {background-color: #CCCC99;background-image: none;font-size: 11px}
 	.container {width: 90%;margin:10px 5% auto 5%;}
@@ -24,6 +34,13 @@ and (max-width : 480px) {
 	header h1 {font-size: 3em;}
 	header h2 {font-size: 1.5em;}
 	article h3 {font-size: 1m;}
+
+	nav {width: 100%;margin: 0;padding: 0;font-size: 12px}
+	nav ul {}
+	nav>ul>li {display:block;float: none;width: 90%;margin-left: 5%;margin-right: 5%;border-top: 1px dotted #CCC;}
+	nav>ul>li ul {display: none;position: absolute;top: 80%;left: 50%;}
+	nav>ul>li>a {text-align: center;margin-right: 20%;margin-left: 20%;}
+
 	.gallery {background-image: none;}
 	.gallery .menu p {width: 100%}
 	#salad, #dessert, #Appetizer, #maincourse {width: 90%;float: none;}
@@ -42,6 +59,13 @@ and (max-width : 360px) {
 	header h1 {font-size: 2em;}
 	header h2 {font-size: 1.3em;}
 	article h3 {font-size: 1m;}
+
+	nav {width: 100%;margin: 0;padding: 0;font-size: 12px}
+	nav ul {}
+	nav>ul>li {display:block;float: none;width: 90%;margin-left: 5%;margin-right: 5%;border-top: 1px dotted #CCC;}
+	nav>ul>li ul {display: none;position: absolute;top: 80%;left: 50%;}
+	nav>ul>li>a {text-align: center;margin-right: 10%;margin-left: 10%;}
+
 	.gallery {background-image: none;}
 	.gallery .menu p {width: 100%}
 	#salad, #dessert, #Appetizer, #maincourse {width: 90%;float: none;}
