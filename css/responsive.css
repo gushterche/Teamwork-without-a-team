@@ -1,7 +1,7 @@
 
 /* Smartphones (portrait) ----------- */
 @media only screen 
-and (max-width : 780px) {
+and (max-width : 768px) {
 	body {background-color: #CCCC99;background-image: none;}
 	.welcome img {margin:0.5em;width: 80px}
 	.welcome .greeting {float: none;width: 95%}
@@ -13,7 +13,7 @@ and (max-width : 780px) {
 	nav ul {}
 	nav>ul>li {display:block;float: none;width: 90%;margin-left: 5%;margin-right: 5%;border-top: 1px dotted #CCC;}
 	nav>ul>li ul {display: none;position: absolute;top: 80%;left: 50%;padding-top: 0.5em; z-index: 900}
-	nav>ul>li>a {text-align: center;margin-right: 35%;margin-left: 35%;}
+	nav>ul>li>a {text-align: center;margin-right: 40%;margin-left: 40%;}
 
 	.gallery {background-image: none;}
 	.gallery .menu p {width: 100%}
@@ -24,7 +24,31 @@ and (max-width : 780px) {
 	footer {font-size: 8px}
 }
 
-@media only screen us
+@media only screen 
+and (max-width : 640px) {
+	body {background-color: #CCCC99;background-image: none;}
+	.welcome img {margin:0.5em;width: 80px}
+	.welcome .greeting {float: none;width: 95%}
+	header h1 {font-size: 3.5em;}
+	header h2 {font-size: 2em;}
+	article h3 {font-size: 1m;}
+
+	nav {width: 100%;margin: 0;padding: 0}
+	nav ul {}
+	nav>ul>li {display:block;float: none;width: 90%;margin-left: 5%;margin-right: 5%;border-top: 1px dotted #CCC;}
+	nav>ul>li ul {display: none;position: absolute;top: 80%;left: 50%;padding-top: 0.5em; z-index: 900}
+	nav>ul>li>a {text-align: center;margin-right: 38%;margin-left: 38%;}
+
+	.gallery {background-image: none;}
+	.gallery .menu p {width: 100%}
+	.gallery .menu img {width: 50px; height:30px;}
+	.gallery .menu img:hover {width: 100px;height: 80px;}
+	#salad, #dessert, #Appetizer, #maincourse {width: 90%;float: none;}
+	.address, #map_canvas {float: none;width: 90%}
+	footer {font-size: 8px}
+}
+
+@media only screen
 and (max-width : 480px) {
 	body {background-color: #CCCC99;background-image: none;font-size: 11px}
 	.container {width: 90%;margin:10px 5% auto 5%;}
@@ -37,7 +61,7 @@ and (max-width : 480px) {
 	nav ul {}
 	nav>ul>li {display:block;float: none;width: 90%;margin-left: 5%;margin-right: 5%;border-top: 1px dotted #CCC;}
 	nav>ul>li ul {display: none;position: absolute;top: 80%;left: 50%;}
-	nav>ul>li>a {text-align: center;margin-right: 20%;margin-left: 20%;}
+	nav>ul>li>a {text-align: center;margin-right: 36%;margin-left: 36%;}
 
 	.gallery {background-image: none;}
 	.gallery .menu p {width: 100%}
@@ -48,7 +72,7 @@ and (max-width : 480px) {
 }
 
 @media only screen 
-and (max-width : 360px) {
+and (max-width : 320px) {
 	body {background-color: #CCCC99;background-image: none;font-size: 9px}
 	.container {width: 90%;margin:10px 5% auto 5%;}
 	.welcome {display: none;}
@@ -62,7 +86,7 @@ and (max-width : 360px) {
 	nav ul {}
 	nav>ul>li {display:block;float: none;width: 90%;margin-left: 5%;margin-right: 5%;border-top: 1px dotted #CCC;}
 	nav>ul>li ul {display: none;position: absolute;top: 80%;left: 50%;}
-	nav>ul>li>a {text-align: center;margin-right: 10%;margin-left: 10%;}
+	nav>ul>li>a {text-align: center;margin-right: 30%;margin-left: 30%;}
 
 	.gallery {background-image: none;}
 	.gallery .menu p {width: 100%}
