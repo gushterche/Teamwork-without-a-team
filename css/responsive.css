@@ -1,5 +1,11 @@
+@media only screen 
+and (max-width : 1024px) {
+	.welcome img {margin:0.5em;width: 80px}
+	.welcome .greeting {float: none;width: 95%}
+	#salad, #dessert, #Appetizer, #maincourse {margin: 0.7em;width: 47%;font-size: 13px}
+	.gallery .menu img {width: 100px;height: 80px;}
+}
 
-/* Smartphones (portrait) ----------- */
 @media only screen 
 and (max-width : 768px) {
 	body {background-color: #CCCC99;background-image: none;}
