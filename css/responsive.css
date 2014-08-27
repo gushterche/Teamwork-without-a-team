@@ -14,7 +14,7 @@ and (max-width : 768px) {
 	.welcome .greeting {float: none;width: 95%}
 	header h1 {font-size: 3.5em;}
 	header h2 {font-size: 2em;}
-	article h3 {font-size: 1m;}
+	article h3 {font-size: 1em;}
 
 	nav {width: 100%;margin: 0;padding: 0}
 	nav ul {}
@@ -40,7 +40,7 @@ and (max-width : 640px) {
 	.welcome .greeting {float: none;width: 95%}
 	header h1 {font-size: 3.5em;}
 	header h2 {font-size: 2em;}
-	article h3 {font-size: 1m;}
+	article h3 {font-size: 1em;}
 
 	nav {width: 100%;margin: 0;padding: 0}
 	nav ul {}
@@ -67,7 +67,7 @@ and (max-width : 480px) {
 	.welcome {display: none;}
 	header h1 {font-size: 3em;}
 	header h2 {font-size: 1.5em;}
-	article h3 {font-size: 1m;}
+	article h3 {font-size: 1em;}
 
 	nav {width: 100%;margin: 0;padding: 0;font-size: 12px}
 	nav ul {}
