@@ -2,7 +2,8 @@
 and (max-width : 1024px) {
 	.welcome img {margin:0.5em;width: 80px}
 	.welcome .greeting {float: none;width: 95%}
-	#salad, #dessert, #Appetizer, #maincourse {margin: 0.7em;width: 47%;font-size: 13px}
+	#salad, #dessert, #Appetizer, #maincourse {margin:0.7em;width: 47%;font-size: 13px}
+	.gallery {background-size: 100% 560px}
 	.gallery .menu img {width: 100px;height: 80px;}
 }
 
@@ -29,6 +30,7 @@ and (max-width : 768px) {
 	#salad, #dessert, #Appetizer, #maincourse {width: 90%;float: none;}
 	.address, #map_canvas {float: none;width: 90%}
 	footer {font-size: 8px}
+
 }
 
 @media only screen 
@@ -47,6 +49,7 @@ and (max-width : 640px) {
 	nav>ul>li>ul>li {width: 100%;}
 	nav>ul>li>a, nav>ul>li>ul>li>a {text-align: center;margin-right: 38%;margin-left: 38%;}
 
+
 	.gallery {background-image: none;}
 	.gallery .menu p {width: 100%}
 	.gallery .menu img {width: 50px; height:30px;}
@@ -54,6 +57,7 @@ and (max-width : 640px) {
 	#salad, #dessert, #Appetizer, #maincourse {width: 90%;float: none;}
 	.address, #map_canvas {float: none;width: 90%}
 	footer {font-size: 8px}
+	footer a {display: none;}
 }
 
 @media only screen
@@ -77,6 +81,7 @@ and (max-width : 480px) {
 	#salad, #dessert, #Appetizer, #maincourse {width: 90%;float: none;}
 	.address, #map_canvas {float: none;width: 90%}
 	footer {font-size: 8px}
+	footer a {display: none;}
 	
 }
 
@@ -89,14 +94,14 @@ and (max-width : 320px) {
 	section #newsHome .newsHome {float: none;width: 90%;background-image: none;}
 	header h1 {font-size: 2em;}
 	header h2 {font-size: 1.3em;}
-	article h3 {font-size: 1m;}
+	article h3 {font-size: 1em;}
 
 	nav {width: 100%;margin: 0;padding: 0;font-size: 12px}
 	nav ul {}
 	nav>ul>li {display:block;float: none;width: 90%;margin-left: 5%;margin-right: 5%;border-top: 1px dotted #CCC;}
 	nav>ul>li ul {display: none;position: relative;top:100%;left: 0;}
 	nav>ul>li>ul>li {width: 100%;}
-	nav>ul>li>a,nav>ul>li>ul>li>a {text-align: center;margin-right: 30%;margin-left: 30%;}
+	nav>ul>li>a,nav>ul>li>ul>li>a {text-align: center;margin-right: 32%;margin-left: 32%;font-size:12px }
 
 	.gallery {background-image: none;}
 	.gallery .menu p {width: 100%}
@@ -104,6 +109,7 @@ and (max-width : 320px) {
 	.address {width: 100%}
 	 #map_canvas {display: none;}
 	footer {font-size: 7px}
+	footer a {display: none;}
 
 }
 
